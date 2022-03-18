@@ -16,3 +16,37 @@
     text-decoration: underline;
 }
 
+.cards_grid {
+    margin-left: 24%;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 35% 42%;
+    grid-template-rows: 33% 33% 33%;
+    padding: 5px;
+}
+
+.story_card {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+.right {
+    margin-left: 10px;
+}
+
+/* .cards-grid {
+    display: grid;
+    grid-template-columns: 80px 200px auto 30px;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .cards-grid > .story_card {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+
