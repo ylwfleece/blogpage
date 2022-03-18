@@ -58,3 +58,14 @@
     width: 50%;
 }
 
+@media screen and (max-width: 300px) {
+    .cards_grid {
+        margin-left: 24%;
+        width: 75%;
+        display: grid;
+        grid-template-columns: 80%;
+        grid-template-rows: 16%;
+        padding: 5px;
+    }
+  }
+
