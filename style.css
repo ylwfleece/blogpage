@@ -71,6 +71,10 @@
     flex-direction: column;
 }
 
+.boxed_paragraph {
+    border: dotted 1px gray;
+}
+
 @media screen and (max-width: 300px) {
     .cards_grid {
         margin-left: 24%;
