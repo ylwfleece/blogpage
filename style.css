@@ -1,7 +1,6 @@
 .first_page {
     display: flex;
     flex-direction: column;
-
 }
 
 .top_container {
@@ -58,6 +57,20 @@
     width: 50%;
 }
 
+.post_grid {
+    margin-left: 24%;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 40% 20%;
+    grid-template-rows: 100%;
+    padding: 5px;
+}
+
+.left_content {
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (max-width: 300px) {
     .cards_grid {
         margin-left: 24%;
@@ -68,4 +81,6 @@
         padding: 5px;
     }
   }
+
+
 
